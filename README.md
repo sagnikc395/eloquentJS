@@ -1,4 +1,4 @@
 ## eloqunetJS
 
-Solutions ,Code Snippets and Code from EloquentJS.
+EloquentJS solutions, code snippets and exercises and projects solved.
 
