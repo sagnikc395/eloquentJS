@@ -31,4 +31,19 @@
 ### Functions as Values
 - Function value can do all the things that other alues can do - we can use it in arbitary expressions, not just call it. It is possible to store a function value in a new binding , pass it as an argument to a function and so on.
 - A binding that holds a function is still just a regular binding and can , if not constant , be assigned a new value.
+
+
+## Declaration Notation
+- When the function keyword is used at the start of a statement it is a function declaration.This statement defined the binding square and points it at the given function. Slightly easier to write and doesnt require a semicolon.
+- **Function declaration are not part of the regular top-to-botton flow of control**
+  - They are conceptually moved to the top of their scope and can be used by all the code in that scope.
+
+
+## Arrow Functions:
+- It uses an arrow made up of equal sign and a greater than character.
+- Arrow comes after the list of parameters and followed by function's body. It expresses like this input(parameters) produces this result(output).
+- When there is only 1 parameter name , we can omit the parentheses around the parameter list. If the body is a single expression, rather than a block in braces, that expression will be returned from the function.
+
+## Call Stack:
+- Since a function has to jump back to the place that called it when it returns , the computer must member the context from which the call happened. The place where the computer stores this context is called the call stack.
 - 
