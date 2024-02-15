@@ -78,3 +78,21 @@
 - To write such a function, we can put 3 dots before the function's last parameter.
 - when such a function is called, the rest parameter is bound to a array containing all further arguments. If there are other parameters before it, their values arent part of the array.
 - square bracket array notation similarly allows the 3dot operator to spread another array into the new array.
+
+## Math Object:
+- Math object is used as a container to group a bunch of related functionality. There is only 1 Math object, and it is almost never useful as a value.
+- Rather it provides a namespace so that all these functions and values do not have to be global bindings.
+- JS gives error or wans when defining a binding that is already taken for decalred using let and const but not for standard bindings nor for bindings declared uisng var or function.
+
+## Destructuring:
+- if we know the value we are binding is an array, we can use square brackets to "look" inside of the value, binding its contents.
+- Destructuring null or undefined , we get an error, much like we would directly try to access a property of those values.
+
+## JSON:
+- to send data in a strict and succient format over the network , we serialize the data. That means converting the data into a flat description.
+- A popular method is called as JSON.
+- Popular data storage and communciation format on the web, even in languages other than Javascript.
+- Looks similar to JS way of writing arrays and objects, with a few restrictions.
+  - All property names have to be surrounded by double quotes
+  - only simple data expressions are allowed - no function calls,bindings or anything that involves computation.
+  - comments are not allowed.
