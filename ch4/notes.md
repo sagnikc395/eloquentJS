@@ -45,3 +45,19 @@
 - == is shallow comaprision , only check by value, not my location in memory.
   
 - Arrays have a include method that checks whether a given value exists.
+
+## More Array Methods:
+
+- for adding and removing things at the start of an array is called unshift and shift.
+- indexOf method ->
+  - to search for a specific value, the method searches through the array form the start to the end and returns the index at which the requested value was found or -1.
+  - similarly lastIndexOf() toget the last instance of a element.
+- slice ->
+  - takes a start and a end index and returns an array that has only the elements between them. Start is inclusive and the end index is exclusive.
+  - when end index is not give, slice will take all of the elements after the start idx. We can also omit the start index to copy the entire array.
+- concat ->
+  - can be used to glue arrays together to create a new array (like +)
+  - if concat is passed as an argument that is not an array, that value will be added to the new array as if it were a 1 element array.
+
+## Strings and Properties:
+- 
