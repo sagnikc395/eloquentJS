@@ -72,3 +72,9 @@
   - can split a string on very occurence of another string.
 - repeat ->
   - string can be repeated with the repeat method, which creates a new string containing multiple copies of the origin string glued together.
+
+## Rest Params:
+- A function can accept any number of arguments.
+- To write such a function, we can put 3 dots before the function's last parameter.
+- when such a function is called, the rest parameter is bound to a array containing all further arguments. If there are other parameters before it, their values arent part of the array.
+- square bracket array notation similarly allows the 3dot operator to spread another array into the new array.
