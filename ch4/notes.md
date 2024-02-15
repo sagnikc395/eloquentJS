@@ -60,4 +60,15 @@
   - if concat is passed as an argument that is not an array, that value will be added to the new array as if it were a 1 element array.
 
 ## Strings and Properties:
-- 
+- values of type string, number and boolean are not objects and though the language doesnt complain if we try to set new properties on them, it doesnt actually store those properties.
+- these have built-in properties. Every string value has a number of methods.Some very useful ones are slice and indexOf.
+  - Note: string's indexOf can search for a string containinign more than 1 character, whereas the corresponding array method looks only for a single element.
+- trim ->
+  - removes whitespaces from the start and end of a string.
+- padStart ->
+  - takes the desired length and padding character as arguments.
+  - same padEnd also exists.
+- split and join ->
+  - can split a string on very occurence of another string.
+- repeat ->
+  - string can be repeated with the repeat method, which creates a new string containing multiple copies of the origin string glued together.
