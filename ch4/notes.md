@@ -34,3 +34,14 @@
   - give it an object and it will return us an array of strings - the object's proeprty names.
 - Object.assign ->
   - copies all properties from 1 object to another.
+  
+## Mutability:
+- numbers, strings and booleans are all immutable - it is impossible to change the value of those type.
+- we can combine them and derive new values from them, but when we take a specific string value, that value will alwyas remain the same.
+- Object work differently, we can change their proeprties, causing a single object value to have different content at different times.
+- object1 and object2 bindings grasp the same object, which is why changing object1 also changes the value of object2. They are said to have the same identity.
+- const binding to an object similarly can itself not be changed and will continue to point at the same object, the contents of that object might change.
+- no inbuilt deep comparision operator built into JS.
+- == is shallow comaprision , only check by value, not my location in memory.
+  
+- Arrays have a include method that checks whether a given value exists.
