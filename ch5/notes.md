@@ -24,3 +24,11 @@
 ## Transforming with Map:
 - map method transforms an array by applying a function to all of its elements and building a new array from the returned values. The new array will have the same length as the input array, but its content will have been mapped to a new form by the function.
 - standard array method.
+
+## Summarizing with Reduce:
+- One common thing with arrays is to compute a single value from them. Eg: summing a collection of numbers, is an instance of this. Eg2: Finding the script with the most characters.
+- Higher order functions that represent this pattern is called as reduce(also called as fold). It builds a value by repeatedly taking a single element from the array and combining it with the current value.
+- Parameters to reduce are, apart from the array, a combining function and a start value.
+- reduce:
+  - has an added convinience that if our array contains at least one element , we are allowed to leave off the start argument. The emthod will take the first element of the array as its start value and start reducing the second element.
+  - 
