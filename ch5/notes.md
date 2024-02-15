@@ -10,3 +10,8 @@
 
 ## Abstracting Repetition:
 - Plain functions are a good way to build abstractions. but sometimes they fall short.
+- Can build abstractions on top of abstractions.
+
+### Higher-Order Functions:
+- Functions that operate on other function , either by taking them as arguments or by returning them , are called as higher order functions.
+- Higher-order functions allow us to abstract over actions, not just values. They come in several forms. Eg: can have functions that create new functions.
